@@ -1,0 +1,2 @@
+display = document.getElementById('display');
+
