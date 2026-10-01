@@ -21,6 +21,9 @@ function appendToDisplay(input) {
  function calculate(){
     try {
             display.value = eval(display.value);
+            if (display.value === 'undefined') {
+                justEvaluated = true;
+            }
         }
     
     catch(error){
