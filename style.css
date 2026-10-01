@@ -41,7 +41,7 @@ body{
     
 }
 
-.button{
+button{
     border: none;
     border-radius: 50px;
     width: 60px;
@@ -56,7 +56,24 @@ body{
 
 }
 
+.button:active{
+    background-color: hsl(0, 0%, 50%);
+
+}
+
 #calculate{
     grid-column: 4;
     grid-row: 4;
+}
+
+.operators{
+    background-color: orange;
+}
+
+.operators:hover{
+    background-color: rgb(255, 211, 130);
+}
+
+.operators:active{
+    background-color: rgb(246, 216, 160);
 }
