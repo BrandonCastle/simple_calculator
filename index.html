@@ -10,19 +10,22 @@
    <div id="calculator">
         <input id="display" readonly>
         <div id="buttons">
-            <button onclick="appendToDisplay()" class="button">1</button>
-            <button onclick="appendToDisplay()" class="button">2</button>
-            <button onclick="appendToDisplay()" class="button">3</button>
-            <button class="operators" onclick="appendToDisplay()">+</button>
-            <button onclick="appendToDisplay()" class="button">4</button>
-            <button onclick="appendToDisplay()" class="button">5</button>
-            <button onclick="appendToDisplay()" class="button">6</button>
-            <button class="operators" onclick="appendToDisplay()">-</button>
-            <button onclick="appendToDisplay()" class="button">7</button>
-            <button onclick="appendToDisplay()" class="button">8</button>
-            <button onclick="appendToDisplay()" class="button">9</button>
-            <button class="operators" onclick="appendToDisplay()">*</button>
-            <button onclick="appendToDisplay()" class="button">0</button>
+            <button onclick="appendToDisplay('1')" class="button">1</button>
+            <button onclick="appendToDisplay('2')" class="button">2</button>
+            <button onclick="appendToDisplay('3')" class="button">3</button>
+            <button class="operators" onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('4')" class="button">4</button>
+            <button onclick="appendToDisplay('5')" class="button">5</button>
+            <button onclick="appendToDisplay('6')" class="button">6</button>
+            <button class="operators" onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('7')" class="button">7</button>
+            <button onclick="appendToDisplay('8')" class="button">8</button>
+            <button onclick="appendToDisplay('9')" class="button">9</button>
+            <button class="operators" onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('0')" class="button">0</button>
+            <button onclick="clearDisplay()" class="button">C</button>
+            <button onclick="backspace()" class="button"><</button>
+
             <button class="button" id="calculate" onclick="calculate()">=</button>
 
 
